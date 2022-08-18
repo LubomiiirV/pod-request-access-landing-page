@@ -1,4 +1,30 @@
+@import "./css-reset.css";
+
 body {
   background-color: #121725;
   color: #ffff;
+}
+
+/* .content {
+  display: flex;
+
+} */
+
+/* .logo {
+  margin: 50px;
+} */
+
+@media screen and (min-width: 480px) {
+  /* body {
+    background-image: url("./assets/mobile/image-host.jpg");
+  } */
+
+  .content {
+    display: block;
+  }
+
+  .image {
+    display: none;
+  }
+
 }
