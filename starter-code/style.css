@@ -29,13 +29,20 @@ body {
 }
 
 @media screen and (max-width: 480px) {
+  div .images {
+    order: 1;
+  }
+
+  div .input {
+    order: 2;
+  }
+
   body {
+
     /* background-image: url("./assets/mobile/image-host.jpg");
     background-repeat: no-repeat;
     background-size: cover; */
   }
-
-
 
   .content {
     text-align: center;
@@ -76,8 +83,46 @@ body {
 
   .text {
     font-size: 15px;
-    line-height: 25px;
+    line-height: 27px;
     opacity: 0.7;
+    padding: 20px 0 20px 0;
+  }
+
+  .slots {
+    display: flex;
+  }
+
+  .images img {
+    display: flex;
+  }
+
+  .input {
+    font-size: 14px;
+    display: block;
+    flex-direction: column;
+    margin: 20px 0 20px 0;
+  }
+
+  input {
+    font-weight: 800;
+    border-radius: 40px;
+    padding: 5px 10px;
+    color: #fff;
+    background: #2C344B;
+    height: 46px;
+    padding: 0 0 0 25px;
+    margin-bottom: 20px;
+    border: none;
+  }
+
+  button {
+    font-weight: 800;
+    border-radius: 40px;
+    padding: 0;
+    color: #121725;
+    background: #54E6AF;
+    height: 46px;
+    border: none;
   }
 
   .dots {
