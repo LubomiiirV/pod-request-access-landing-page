@@ -1,6 +1,12 @@
 @import "./css-reset.css";
 
+@font-face {
+  font-family: chivo;
+  src: url("./assets/fonts/chivo.light.ttf");
+}
+
 body {
+  font-family: chivo;
   background-color: #121725;
   color: #ffff;
 }
@@ -14,16 +20,67 @@ body {
   margin: 50px;
 } */
 
-@media screen and (min-width: 480px) {
-  /* body {
-    background-image: url("./assets/mobile/image-host.jpg");
-  } */
+.background-mobile {
+  display: none;
+}
 
-  .content {
-    display: block;
+.background-tablet {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    /* background-image: url("./assets/mobile/image-host.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
   }
 
-  .image {
+
+
+  .content {
+    text-align: center;
+
+  }
+
+  .main {
+    padding: 25px;
+  }
+
+  .logo {
+    text-align: center;
+    padding: 50px;
+  }
+
+  .background {
+    display: none;
+  }
+
+  .background-tablet {
+    display: none;
+  }
+
+  .background-mobile {
+    display: none;
+  }
+
+  .heading {
+    font-size: 26px;
+    line-height: 38px;
+    color: #54E6AF;
+    text-transform: uppercase;
+  }
+
+  span {
+    color: #ffff;
+  }
+
+  .text {
+    font-size: 15px;
+    line-height: 25px;
+    opacity: 0.7;
+  }
+
+  .dots {
     display: none;
   }
 
