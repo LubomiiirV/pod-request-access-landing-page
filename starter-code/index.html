@@ -11,6 +11,7 @@
       href="./assets/desktop/logo.svg"
     />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
     <title>Frontend Mentor | Pod request access landing page</title>
   </head>
@@ -37,8 +38,13 @@
         </p>
         <div class="slots">
           <div class="input">
-            <input type="email" placeholder="Email adress" />
-            <button>Request Access</button>
+            <input
+              class="emailInput"
+              type="email"
+              id="email"
+              placeholder="Email adress"
+            />
+            <button id="result">Request Access</button>
           </div>
           <div class="images">
             <img src="./assets/desktop/spotify.svg" alt="spotify" />
