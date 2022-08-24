@@ -121,6 +121,11 @@ body {
     margin: 20px 0 20px 0;
   }
 
+  .newText p {
+    font-size: 18px;
+    padding-bottom: 20px;
+  }
+
   .images {
     display: flex;
     align-self: center;
